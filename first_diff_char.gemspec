@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["zhitongLIU"]
   spec.email = ["zhitonggm.liu@gmail.com"]
   spec.homepage = "https://github.com//first_diff_char"
-  spec.summary = "TODO: Add gem summary here."
-  spec.description = "TODO: Add gem description here."
+  spec.summary = "Find first uniq character in a string"
+  spec.description = "Find first uniq character in a string"
   spec.license = "MIT"
 
   if ENV["RUBY_GEM_SECURITY"] == "enabled"

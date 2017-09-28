@@ -1,1 +1,1 @@
-require "first_diff_char/identity"
+require 'first_diff_char/identity'

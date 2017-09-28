@@ -8,12 +8,15 @@ Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     "%r": "()"
 Style/SingleLineBlockParams:
-  Enabled: false
+  Enabled: true
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
-Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
 Metrics/LineLength:
   Max: 120
+AllCops:
+  Exclude:
+    - 'first_diff_char.gemspec'
+    - 'Rakefile'
+    - 'spec/support/*/*.rb'
+    - 'Guardfile'
+

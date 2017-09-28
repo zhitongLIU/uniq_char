@@ -1,5 +1,5 @@
-require "spec_helper"
+require 'spec_helper'
 
-describe "FirstDiffChar" do
-  it "should be tested"
+describe 'FirstDiffChar' do
+  it 'should be tested'
 end
