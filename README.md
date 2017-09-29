@@ -33,14 +33,6 @@
 
 # Setup
 
-For a secure install, type the following (recommended):
-
-    gem cert --add <(curl -Ls https://www.my-website.com/gem-public.pem)
-    gem install first_diff_char --trust-policy MediumSecurity
-
-NOTE: A HighSecurity trust policy would be best but MediumSecurity enables signed gem verification while
-allowing the installation of unsigned dependencies since they are beyond the scope of this gem.
-
 For an insecure install, type the following (not recommended):
 
     gem install first_diff_char
@@ -50,7 +42,14 @@ Add the following to your Gemfile:
     gem "first_diff_char"
 
 # Usage
+```ruby
+  require 'first_diff_char'
 
+  'aabbce'.first_diff_char
+  # => 'c'
+  'aabbce'.first_diff_char2
+  # => 'c'
+```
 # Tests
 
 To test, run:
@@ -58,12 +57,7 @@ To test, run:
     bundle exec rake
 
 # Versioning
-
-Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
-
-- Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
-- Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
-- Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+0.1.0
 
 # Code of Conduct
 
