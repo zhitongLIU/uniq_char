@@ -28,10 +28,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rb-fsevent" # Guard file events for OSX.
   spec.add_development_dependency "guard-rspec"
-  spec.add_development_dependency "terminal-notifier"
-  spec.add_development_dependency "terminal-notifier-guard"
   spec.add_development_dependency "rubocop"
-  spec.add_development_dependency "codeclimate-test-reporter"
+  spec.add_development_dependency "simplecov"
 
   spec.files = Dir["lib/**/*", "vendor/**/*"]
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
