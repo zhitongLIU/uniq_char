@@ -76,6 +76,12 @@
   
     <li><a href="./Rakefile.html">Rakefile</a>
   
+    <li><a href="./coverage/assets/0_10_2/application_css.html">application.css</a>
+  
+    <li><a href="./coverage/assets/0_10_2/application_js.html">application.js</a>
+  
+    <li><a href="./coverage/index_html.html">index.html</a>
+  
     <li><a href="./lib/tasks/rspec_rake.html">rspec.rake</a>
   
     <li><a href="./lib/tasks/rubocop_rake.html">rubocop.rake</a>
@@ -123,10 +129,8 @@
 <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;rspec&quot;</span>
 <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;rb-fsevent&quot;</span> <span class="ruby-comment"># Guard file events for OSX.</span>
 <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;guard-rspec&quot;</span>
-<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;terminal-notifier&quot;</span>
-<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;terminal-notifier-guard&quot;</span>
 <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;rubocop&quot;</span>
-<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;codeclimate-test-reporter&quot;</span>
+<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">add_development_dependency</span> <span class="ruby-string">&quot;simplecov&quot;</span>
 
 <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">files</span> = <span class="ruby-constant">Dir</span>[<span class="ruby-string">&quot;lib   /*&quot;</span>, <span class="ruby-string">&quot;vendor/   *&quot;</span>]
 <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">extra_rdoc_files</span> = <span class="ruby-constant">Dir</span>[<span class="ruby-string">&quot;README*&quot;</span>, <span class="ruby-string">&quot;LICENSE*&quot;</span>]
