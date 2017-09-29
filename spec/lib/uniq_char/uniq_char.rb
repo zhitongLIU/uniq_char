@@ -41,5 +41,24 @@ describe 'UniqChar' do
       expect(x.first_uniq_char2).to be_nil
     end
   end
+
+  context ':uniq_chars' do
+    it 'should respond to :uniq_chars for a String object' do
+      expect(String.instance_methods.include?(:uniq_chars)).to be_truthy
+    end
+
+    it 'should return the first uniq character in a string' do
+      x = 'aabbsc'
+      expect(x.count('s')).to eq(1)
+      expect(x.count('c')).to eq(1)
+
+      expect(x.uniq_chars).to eq(%w[s c])
+    end
+
+    it 'should return [] if string does not contain uniq char' do
+      x = 'aabb'
+      expect(x.uniq_chars).to be_empty
+    end
+  end
 end
 # rubocop: enable Metrics/BlockLength

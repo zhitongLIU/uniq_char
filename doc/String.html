@@ -74,6 +74,8 @@
     
     <li ><a href="#method-i-first_uniq_char2">#first_uniq_char2</a>
     
+    <li ><a href="#method-i-uniq_chars">#uniq_chars</a>
+    
   </ul>
 </div>
 
@@ -178,13 +180,55 @@
   <span class="ruby-comment">#   &gt;&gt; &#39;aabbce&#39;.first_uniq_char2</span>
   <span class="ruby-comment">#   =&gt; c</span>
   <span class="ruby-comment">#</span>
-  <span class="ruby-comment"># Arguments:</span>
-  <span class="ruby-comment">#</span>
+  <span class="ruby-comment"># could be refactor by doing just returning uniq_chars.first</span>
+  <span class="ruby-comment"># but the best case will become 2n</span>
   <span class="ruby-identifier">nb_count</span> = {}
   <span class="ruby-identifier">chars</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">c</span><span class="ruby-operator">|</span> <span class="ruby-identifier">nb_count</span>[<span class="ruby-identifier">c</span>] = <span class="ruby-identifier">nb_count</span>[<span class="ruby-identifier">c</span>].<span class="ruby-identifier">nil?</span> <span class="ruby-operator">?</span> <span class="ruby-value">1</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">nb_count</span>[<span class="ruby-identifier">c</span>] <span class="ruby-operator">+</span> <span class="ruby-value">1</span> }
   <span class="ruby-identifier">couple</span> = <span class="ruby-identifier">nb_count</span>.<span class="ruby-identifier">find</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">_k</span>, <span class="ruby-identifier">v</span><span class="ruby-operator">|</span> <span class="ruby-identifier">v</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> }
   <span class="ruby-comment"># return the key of the key value couple(the first one in the couple)</span>
   <span class="ruby-identifier">couple</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">?</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">couple</span>.<span class="ruby-identifier">first</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-uniq_chars" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">uniq_chars</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="uniq_chars-source">
+            <pre><span class="ruby-comment"># File lib/uniq_char.rb, line 35</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">uniq_chars</span>
+  <span class="ruby-comment"># returns list of uniq chars in a string</span>
+  <span class="ruby-comment"># Example:</span>
+  <span class="ruby-comment">#   &gt;&gt; &#39;aabbce&#39;.uniq_chars</span>
+  <span class="ruby-comment">#   =&gt; [c, e]</span>
+  <span class="ruby-comment">#</span>
+  <span class="ruby-identifier">nb_count</span> = {}
+  <span class="ruby-identifier">uniqs</span> = []
+  <span class="ruby-identifier">chars</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">c</span><span class="ruby-operator">|</span> <span class="ruby-identifier">nb_count</span>[<span class="ruby-identifier">c</span>] = <span class="ruby-identifier">nb_count</span>[<span class="ruby-identifier">c</span>].<span class="ruby-identifier">nil?</span> <span class="ruby-operator">?</span> <span class="ruby-value">1</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">nb_count</span>[<span class="ruby-identifier">c</span>] <span class="ruby-operator">+</span> <span class="ruby-value">1</span> }
+  <span class="ruby-identifier">nb_count</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">k</span>, <span class="ruby-identifier">v</span><span class="ruby-operator">|</span> <span class="ruby-identifier">uniqs</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">k</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">v</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> }
+  <span class="ruby-identifier">uniqs</span>.<span class="ruby-identifier">uniq</span>
 <span class="ruby-keyword">end</span></pre>
           </div>
           

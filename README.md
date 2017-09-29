@@ -47,7 +47,14 @@ Add the following to your Gemfile:
 
   'aabbce'.first_uniq_char
   # => 'c'
+
   'aabbce'.first_uniq_char2
+  # => 'c'
+
+  'aabbce'.uniq_chars
+  # => ['c', 'e']
+
+  'aabbce'.uniq_chars.first
   # => 'c'
 ```
 # Tests
@@ -57,7 +64,7 @@ To test, run:
     bundle exec rake
 
 # Versioning
-0.1.0
+0.2.0
 
 # Code of Conduct
 

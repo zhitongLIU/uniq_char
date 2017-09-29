@@ -15,7 +15,7 @@ Metrics/LineLength:
   Max: 120
 AllCops:
   Exclude:
-    - 'first_diff_char.gemspec'
+    - '*.gemspec'
     - 'Rakefile'
     - 'spec/support/*/*.rb'
     - 'Guardfile'
