@@ -1,10 +1,10 @@
 # UniqChar
 
 [![Gem Version](https://badge.fury.io/rb/uniq_char.svg)](http://badge.fury.io/rb/uniq_char)
-[![Code Climate GPA](https://codeclimate.com/github//uniq_char.svg)](https://codeclimate.com/github//uniq_char)
-[![Code Climate Coverage](https://codeclimate.com/github//uniq_char/coverage.svg)](https://codeclimate.com/github//uniq_char)
-[![Gemnasium Status](https://gemnasium.com//uniq_char.svg)](https://gemnasium.com//uniq_char)
-[![Travis CI Status](https://secure.travis-ci.org//uniq_char.svg)](https://travis-ci.org//uniq_char)
+[![Code Climate GPA](https://codeclimate.com/github/zhitongliu/uniq_char.svg)](https://codeclimate.com/github/zhitongliu/uniq_char)
+[![Code Climate Coverage](https://codeclimate.com/github/zhitongliu/uniq_char/coverage.svg)](https://codeclimate.com/github/zhitongliu/uniq_char)
+[![Gemnasium Status](https://gemnasium.com/zhitongliu/uniq_char.svg)](https://gemnasium.com/zhitongliu/uniq_char)
+[![Travis CI Status](https://secure.travis-ci.org/zhitongliu/uniq_char.svg)](https://travis-ci.org/zhitongliu/uniq_char)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->

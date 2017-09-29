@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["zhitongLIU"]
   spec.email = ["zhitonggm.liu@gmail.com"]
-  spec.homepage = "https://github.com//uniq_char"
+  spec.homepage = "https://github.com/zhitongliu/uniq_char"
   spec.summary = "Find first uniq character in a string"
   spec.description = "Find first uniq character in a string"
   spec.license = "MIT"
