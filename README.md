@@ -1,4 +1,4 @@
-# FirstDiffChar
+# UniqChar
 
 [![Gem Version](https://badge.fury.io/rb/uniq_char.svg)](http://badge.fury.io/rb/uniq_char)
 [![Code Climate GPA](https://codeclimate.com/github//uniq_char.svg)](https://codeclimate.com/github//uniq_char)
