@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    first_diff_char (0.1.0)
+    uniq_char (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -126,7 +126,6 @@ PLATFORMS
 
 DEPENDENCIES
   codeclimate-test-reporter
-  first_diff_char!
   gemsmith
   guard-rspec
   pry
@@ -141,6 +140,7 @@ DEPENDENCIES
   rubocop
   terminal-notifier
   terminal-notifier-guard
+  uniq_char!
 
 BUNDLED WITH
    1.15.4

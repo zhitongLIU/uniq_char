@@ -1,4 +1,4 @@
-require 'first_diff_char/identity'
+require 'uniq_char/identity'
 
 #
 class String

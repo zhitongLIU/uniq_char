@@ -1,13 +1,13 @@
 $LOAD_PATH.push File.expand_path("../lib", __FILE__)
-require "first_diff_char/identity"
+require "uniq_char/identity"
 
 Gem::Specification.new do |spec|
-  spec.name = FirstDiffChar::Identity.name
-  spec.version = FirstDiffChar::Identity.version
+  spec.name = UniqChar::Identity.name
+  spec.version = UniqChar::Identity.version
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["zhitongLIU"]
   spec.email = ["zhitonggm.liu@gmail.com"]
-  spec.homepage = "https://github.com//first_diff_char"
+  spec.homepage = "https://github.com//uniq_char"
   spec.summary = "Find first uniq character in a string"
   spec.description = "Find first uniq character in a string"
   spec.license = "MIT"

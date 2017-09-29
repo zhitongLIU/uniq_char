@@ -1,10 +1,10 @@
 # FirstDiffChar
 
-[![Gem Version](https://badge.fury.io/rb/first_diff_char.svg)](http://badge.fury.io/rb/first_diff_char)
-[![Code Climate GPA](https://codeclimate.com/github//first_diff_char.svg)](https://codeclimate.com/github//first_diff_char)
-[![Code Climate Coverage](https://codeclimate.com/github//first_diff_char/coverage.svg)](https://codeclimate.com/github//first_diff_char)
-[![Gemnasium Status](https://gemnasium.com//first_diff_char.svg)](https://gemnasium.com//first_diff_char)
-[![Travis CI Status](https://secure.travis-ci.org//first_diff_char.svg)](https://travis-ci.org//first_diff_char)
+[![Gem Version](https://badge.fury.io/rb/uniq_char.svg)](http://badge.fury.io/rb/uniq_char)
+[![Code Climate GPA](https://codeclimate.com/github//uniq_char.svg)](https://codeclimate.com/github//uniq_char)
+[![Code Climate Coverage](https://codeclimate.com/github//uniq_char/coverage.svg)](https://codeclimate.com/github//uniq_char)
+[![Gemnasium Status](https://gemnasium.com//uniq_char.svg)](https://gemnasium.com//uniq_char)
+[![Travis CI Status](https://secure.travis-ci.org//uniq_char.svg)](https://travis-ci.org//uniq_char)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
@@ -35,19 +35,19 @@
 
 For an insecure install, type the following (not recommended):
 
-    gem install first_diff_char
+    gem install uniq_char
 
 Add the following to your Gemfile:
 
-    gem "first_diff_char"
+    gem "uniq_char"
 
 # Usage
 ```ruby
-  require 'first_diff_char'
+  require 'uniq_char'
 
-  'aabbce'.first_diff_char
+  'aabbce'.first_uniq_char
   # => 'c'
-  'aabbce'.first_diff_char2
+  'aabbce'.first_uniq_char2
   # => 'c'
 ```
 # Tests

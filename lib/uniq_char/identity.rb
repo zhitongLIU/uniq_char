@@ -1,12 +1,12 @@
-module FirstDiffChar
+module UniqChar
   # Gem identity information.
   module Identity
     def self.name
-      'first_diff_char'
+      'uniq_char'
     end
 
     def self.label
-      'FirstDiffChar'
+      'UniqChar'
     end
 
     def self.version

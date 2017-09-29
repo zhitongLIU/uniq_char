@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 # rubocop: disable Metrics/BlockLength
-describe 'FirstDiffChar' do
+describe 'UniqChar' do
   context ':first_uniq_char' do
     it 'should respond to :first_uniq_char for a String object' do
       expect(String.instance_methods.include?(:first_uniq_char)).to be_truthy

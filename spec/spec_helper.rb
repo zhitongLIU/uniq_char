@@ -5,7 +5,7 @@ if ENV['CI']
   CodeClimate::TestReporter.start
 end
 
-require 'first_diff_char'
+require 'uniq_char'
 
 Dir[File.join(File.dirname(__FILE__), 'support/extensions/**/*.rb')].each { |file| require file }
 Dir[File.join(File.dirname(__FILE__), 'support/kit/**/*.rb')].each { |file| require file }

@@ -1,23 +1,23 @@
-Fri, 29 Sep 2017 13:24:08 +0800
+Fri, 29 Sep 2017 13:52:21 +0800
 ./CHANGELOG.md	Thu, 28 Sep 2017 11:35:24 +0800
 ./CODE_OF_CONDUCT.md	Thu, 28 Sep 2017 11:35:24 +0800
 ./CONTRIBUTING.md	Thu, 28 Sep 2017 11:35:24 +0800
-./first_diff_char.gemspec	Thu, 28 Sep 2017 11:53:08 +0800
 ./Gemfile	Thu, 28 Sep 2017 11:53:08 +0800
-./Gemfile.lock	Thu, 28 Sep 2017 11:53:08 +0800
+./Gemfile.lock	Fri, 29 Sep 2017 13:51:49 +0800
 ./Guardfile	Thu, 28 Sep 2017 11:35:24 +0800
-./lib/first_diff_char/identity.rb	Thu, 28 Sep 2017 11:53:08 +0800
-./lib/first_diff_char.rb	Fri, 29 Sep 2017 13:23:57 +0800
 ./lib/tasks/rspec.rake	Thu, 28 Sep 2017 11:53:08 +0800
 ./lib/tasks/rubocop.rake	Thu, 28 Sep 2017 11:53:08 +0800
+./lib/uniq_char/identity.rb	Fri, 29 Sep 2017 13:49:54 +0800
+./lib/uniq_char.rb	Fri, 29 Sep 2017 13:51:21 +0800
 ./LICENSE.md	Thu, 28 Sep 2017 11:35:24 +0800
 ./Rakefile	Thu, 28 Sep 2017 11:35:24 +0800
-./README.md	Fri, 29 Sep 2017 13:16:27 +0800
-./spec/lib/first_diff_char/first_diff_char_spec.rb	Fri, 29 Sep 2017 13:05:02 +0800
-./spec/spec_helper.rb	Thu, 28 Sep 2017 11:53:08 +0800
+./README.md	Fri, 29 Sep 2017 13:51:05 +0800
+./spec/lib/uniq_char/uniq_char.rb	Fri, 29 Sep 2017 13:48:36 +0800
+./spec/spec_helper.rb	Fri, 29 Sep 2017 13:51:59 +0800
 ./spec/support/extensions/pry.rb	Thu, 28 Sep 2017 11:35:24 +0800
 ./spec/support/kit/default_config.rb	Thu, 28 Sep 2017 11:35:24 +0800
 ./spec/support/kit/stderr.rb	Thu, 28 Sep 2017 11:35:24 +0800
 ./spec/support/kit/stdout.rb	Thu, 28 Sep 2017 11:35:24 +0800
 ./spec/support/kit/temp_dir.rb	Thu, 28 Sep 2017 11:35:24 +0800
 ./tmp/rspec-status.txt	Fri, 29 Sep 2017 13:05:04 +0800
+./uniq_char.gemspec	Fri, 29 Sep 2017 13:50:09 +0800
