@@ -60,6 +60,31 @@ To test, run:
 
     bundle exec rake
 
+# Benchmark
+```
+$ ruby spec/benchmark.rb
+ "Benchmark with 50 chars"
+        user     system      total        real
+ first_uniq_char  0.000000   0.000000   0.000000 (  0.000014)
+ first_uniq_char2  0.000000   0.000000   0.000000 (  0.000028)
+ uniq_chars.first  0.000000   0.000000   0.000000 (  0.000052)
+ "Benchmark with 500 chars"
+        user     system      total        real
+ first_uniq_char  0.000000   0.000000   0.000000 (  0.000180)
+ first_uniq_char2  0.000000   0.000000   0.000000 (  0.000234)
+ uniq_chars.first  0.000000   0.000000   0.000000 (  0.000232)
+ "Benchmark with 5000 chars"
+        user     system      total        real
+ first_uniq_char  0.000000   0.000000   0.000000 (  0.003596)
+ first_uniq_char2  0.000000   0.000000   0.000000 (  0.001695)
+ uniq_chars.first  0.000000   0.000000   0.000000 (  0.001970)
+
+```
+
+Conclusion:
+
+Second & third implementation is better when having more characters
+
 # Versioning
 0.2.0
 
